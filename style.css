@@ -23,6 +23,7 @@ body .container {
 .font-primary {
   color: #00abae;
   font-weight: bolder;
+  text-align: center;
 }
 
 .title-icon {
@@ -40,8 +41,8 @@ h2 {
   margin-bottom: 20px;
 }
 
-a.font-black {
-  color: #000 !important;
+a.font-white {
+  color: #fff !important;
   font-weight: bold;
 }
 
@@ -112,6 +113,10 @@ Project
   max-width: 80%;
 }
 
+#project h2 {
+  text-align: center;
+}
+
 #project .card img {
   width: 100%;
 }
@@ -123,4 +128,8 @@ Project
 a .btn {
   background-color: #00abae;
   color: #000;
+}
+
+nav {
+  background-color: #000;
 }
